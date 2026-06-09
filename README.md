@@ -3,8 +3,7 @@
 > Repetitive IT work automated for optimization.
 
 ## What is this?
-Roost is a hands-on lab for IT automation — where repetitive SysAdmin and support tasks get turned into scripts that run themselves.
-Inside: PowerShell scripts, Python playbooks, and AI-assisted workflows that take routine work off a human's plate — log cleanup, user onboarding, file monitoring, alert parsing, backup checks. Every project is small, real, and safe to hand off.
+Roost is a hands-on lab for IT automation. It's where repetitive SysAdmin and support tasks get turned into scripts that run themselves. Inside you'll find PowerShell scripts, Python playbooks, and AI-assisted workflows that take routine work off a human's plate: log cleanup, user onboarding, file monitoring, alert parsing, and backup checks. Every project is small, real, and safe to hand off.
 
 ## Repository structure
 ```text
