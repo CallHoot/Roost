@@ -1,0 +1,7 @@
+﻿# Normalize line endings: store LF in the repo, convert per-OS on checkout.
+* text=auto
+
+# Files that MUST keep specific endings to run correctly:
+*.sh  text eol=lf
+*.py  text eol=lf
+*.ps1 text eol=crlf
