@@ -26,3 +26,6 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Generated output (recreated by running the scripts — no need to track)
+users_with_logins.csv
