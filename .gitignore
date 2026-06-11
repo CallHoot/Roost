@@ -1,0 +1,28 @@
+﻿# --- Secrets & credentials (the one category that must never leak) ---
+.env
+.env.*
+# keep a safe placeholder template so collaborators know which vars exist
+!.env.example
+*.key
+*.pem
+*.pfx
+credentials.json
+secrets.json
+appsettings.*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- OS / system files ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
