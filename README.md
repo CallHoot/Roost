@@ -17,7 +17,11 @@ Roost
 ```
 
 ## What's inside
-Work In Progress
+
+### CSV Username Generator - `powershell/` · `python/`
+It reads a CSV of new employees and generates a standard login for each - first initial + lastname - lowercased, with non-letters stripped (so O'Brien becomes obrien).
+It's built in PowerShell and Python to demonstrate I'm not tied to one language.
+Best of all, it's safe for production - input validated, idempotent, non-destructive - It never touches the source data.
 
 ## Roadmap
 Building one small, real automation in each area — each graduates to **What's inside** once it's committed:
