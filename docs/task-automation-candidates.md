@@ -24,7 +24,7 @@ clear rules or needs human judgment, and the blast radius if it goes wrong.
   for "critical" errors and alerting the team.
 - **Rules vs. Judgement:** most days it's nothing, but occasionally a real
   issue is buried in the logs.
-- **Blast radius:** hazarous, it could leave clients experiencing critical
+- **Blast radius:** hazardous, it could leave clients experiencing critical
   issues and the team in the dark about those issues.
 - **The catch:** "critical" needs judgment, the rules must be defined carefully.
 - **Rollout:** run in *shadow mode* alongside the manual process during a
@@ -35,11 +35,11 @@ clear rules or needs human judgment, and the blast radius if it goes wrong.
 **Verdict: Automate later, with guardrails.**
 
 - **How often:** roughly once a week, unspecific
-- **How intensive:** minimual, a routine task the team handles ad hoc.
+- **How intensive:** minimal, a routine task the team handles ad hoc.
 - **Rules vs. Judgement:** the rule is clear; delete files older than 7 days.
   the hard part isn't judgment, it's the risk (see below)
   which is why it needs guardrails
-- **Blast radius:** destructive, many variables to consider, could negetively
+- **Blast radius:** destructive, many variables to consider, could negatively
   affect multiple team members.
 - **The risk:** it deletes, wide blast radius.
 - **Guardrails needed:** dry-run mode, archive instead of delete, log every
