@@ -32,3 +32,8 @@ users_with_logins.csv
 
 # Generated test fixtures (recreate with setup-test-data.ps1)
 test_users/
+
+# Generated test fixtures and runtime logs
+python/temp_builds/
+python/temp_builds_archive/
+python/cleanup.log
