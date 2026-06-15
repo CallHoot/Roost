@@ -29,3 +29,6 @@ desktop.ini
 
 # Generated output (recreated by running the scripts — no need to track)
 users_with_logins.csv
+
+# Generated test fixtures (recreate with setup-test-data.ps1)
+test_users/
